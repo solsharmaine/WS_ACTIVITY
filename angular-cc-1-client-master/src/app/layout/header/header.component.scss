@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+
+  border-bottom: 1px solid var(--border-color);
+
+  padding: 2rem;
+
+  box-sizing: border-box;
+
+  background-color: #FFEDFA;
+
+  a {
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+
+    &.active {
+      font-weight: 900;
+    }
+  }
+
+  .logo {
+    height: 300%;
+    object-fit: contain;
+
+    height: 5rem;
+
+    margin-right: auto;
+  }
+}
